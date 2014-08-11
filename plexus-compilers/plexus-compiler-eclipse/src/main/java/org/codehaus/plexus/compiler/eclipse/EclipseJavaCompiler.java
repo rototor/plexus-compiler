@@ -313,6 +313,10 @@ public class EclipseJavaCompiler
         {
             return CompilerOptions.VERSION_1_7;
         }
+        else if ( "1.8".equals( versionSpec ) )
+        {
+            return CompilerOptions.VERSION_1_8;
+        }
         else
         {
             getLogger().warn(
